@@ -89,14 +89,14 @@ npm run dev
 - 📎 **Kevin the Mascot** — A passive-aggressive virtual assistant delivering brutal roasts with every typo.
 - 📜 **Certificate Generator** — Procedurally drawn certificate of completion with your name, WPM, and shame stats.
 
-# Screenshots
-![Gameplay Arena](https://via.placeholder.com/1280x720/111827/ffffff?text=Inverted+Keyboard+-+Gameplay+Arena)
-*The main typing arena featuring live inverted text input, interactive virtual keyboard, and Kevin the Mascot*
+# Screenshots (Add at least 3)
+![Cursed Keyboard Home & Mode Selection](assets/screenshots/screenshot1.png)
+*Home screen and mode selection dashboard live on Vercel with Hacker Matrix theme*
 
-![Curse Selection Dashboard](https://via.placeholder.com/1280x720/111827/ffffff?text=Inverted+Keyboard+-+Curse+Mode+Selection)
-*The curse selection menu showing all 7 cognitive hazard modes and custom modifiers*
+![Cursed Gameplay Arena & Kevin Mascot](assets/screenshots/screenshot2.png)
+*Active gameplay arena with real-time key scrambling, inverted QWERTY mappings, and Kevin the Mascot delivering dynamic roasts*
 
-![Certificate of Chaos](https://via.placeholder.com/1280x720/111827/ffffff?text=Inverted+Keyboard+-+Certificate+of+Chaos)
+![Official Certificate of Chaos](assets/screenshots/screenshot3.png)
 *Generative Canvas-powered diploma commemorating survival through the cursed typing ordeal*
 
 # Diagrams
@@ -156,11 +156,12 @@ flowchart TD
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+- **[Watch the Project Demo Video (Google Drive)](https://drive.google.com/file/d/1wGalntv6go--2EOS4wuQwzRbfRvk5ntO/view?usp=drive_link)**
 *Demonstration of real-time key remapping, sound synthesis, and roast triggers during an active typing run.*
 
 # Additional Demos
-- [Live Web Demo](https://savinkrishna12-oss.github.io/Inverted_Keyboard/) *(GitHub Pages deployment)*
+- [Live Vercel App](https://inverted-keyboard.vercel.app/) *(Production deployment)*
+- [GitHub Pages Demo](https://savinkrishna12-oss.github.io/Inverted_Keyboard/) *(Mirror deployment)*
 
 ---
 
