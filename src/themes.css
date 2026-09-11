@@ -1,0 +1,248 @@
+/* ==========================================================================
+   CURSED KEYBOARD THEMES
+   9 Distinctive Visual Environments
+   ========================================================================== */
+
+/* 1. HACKER THEME (Terminal Matrix Green) */
+body[data-theme="hacker"] {
+  --bg-primary: #050b05;
+  --bg-secondary: #0a170a;
+  --bg-card: rgba(10, 28, 10, 0.85);
+  --border-color: #00ff66;
+  --text-primary: #00ff66;
+  --text-secondary: #56d364;
+  --accent-color: #39ff14;
+  --cursed-accent: #00ffaa;
+  --card-shadow: 0 0 20px rgba(0, 255, 102, 0.3);
+  font-family: 'Courier New', monospace;
+}
+
+body[data-theme="hacker"] .vk-key {
+  background: #0d220d;
+  color: #00ff66;
+  border-color: #00ff66;
+  box-shadow: 0 4px 0 #005522;
+}
+
+body[data-theme="hacker"] .vk-key.active {
+  background: #00ff66;
+  color: #050b05;
+  box-shadow: 0 0 15px #00ff66;
+}
+
+/* 2. SCHOOL COMPUTER LAB (Windows 95 Beige CRT) */
+body[data-theme="school-lab"] {
+  --bg-primary: #008080; /* Classic Win95 teal desktop */
+  --bg-secondary: #c0c0c0;
+  --bg-card: #c0c0c0;
+  --border-color: #ffffff;
+  --border-dark: #808080;
+  --text-primary: #000000;
+  --text-secondary: #222222;
+  --accent-color: #000080;
+  --cursed-accent: #800000;
+  --card-shadow: 2px 2px 0 #000;
+  font-family: 'MS Sans Serif', Tahoma, Arial, sans-serif;
+}
+
+body[data-theme="school-lab"] .vk-key,
+body[data-theme="school-lab"] .action-btn,
+body[data-theme="school-lab"] .hud-card,
+body[data-theme="school-lab"] .kevin-wrapper {
+  background: #c0c0c0;
+  color: #000;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* 3. RETRO ARCADE (Synthwave Neon Pink & Cyan) */
+body[data-theme="retro-arcade"] {
+  --bg-primary: #120726;
+  --bg-secondary: #230c48;
+  --bg-card: rgba(35, 12, 72, 0.85);
+  --border-color: #ff007f;
+  --text-primary: #00f0ff;
+  --text-secondary: #ff71ce;
+  --accent-color: #ff007f;
+  --cursed-accent: #ffe600;
+  --card-shadow: 0 0 25px rgba(255, 0, 127, 0.4);
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+body[data-theme="retro-arcade"] .vk-key {
+  background: #1f0b3b;
+  color: #00f0ff;
+  border-color: #ff007f;
+  box-shadow: 0 4px 0 #8c0045, 0 0 10px rgba(255, 0, 127, 0.2);
+}
+
+body[data-theme="retro-arcade"] .vk-key.active {
+  background: #ff007f;
+  color: #ffffff;
+  box-shadow: 0 0 20px #ff007f, 0 0 40px #00f0ff;
+}
+
+/* 4. CORPORATE SOFTWARE (Depressing Bureaucratic Enterprise Gray/Blue) */
+body[data-theme="corporate"] {
+  --bg-primary: #f0f2f5;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --border-color: #cbd5e1;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --accent-color: #2563eb;
+  --cursed-accent: #dc2626;
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body[data-theme="corporate"] .vk-key {
+  background: #f8fafc;
+  color: #1e293b;
+  border-color: #cbd5e1;
+  box-shadow: 0 2px 0 #94a3b8;
+}
+
+body[data-theme="corporate"] .vk-key.active {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+/* 5. CURSED WINDOWS (Blue Screen of Death / Error Blue) */
+body[data-theme="cursed-windows"] {
+  --bg-primary: #0047ab;
+  --bg-secondary: #003380;
+  --bg-card: rgba(0, 40, 110, 0.9);
+  --border-color: #80b3ff;
+  --text-primary: #ffffff;
+  --text-secondary: #cce0ff;
+  --accent-color: #ffff00;
+  --cursed-accent: #ff4d4d;
+  --card-shadow: 0 0 20px rgba(0, 80, 200, 0.6);
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+
+body[data-theme="cursed-windows"] .vk-key {
+  background: #003380;
+  color: #ffffff;
+  border-color: #80b3ff;
+  box-shadow: 0 3px 0 #001a40;
+}
+
+body[data-theme="cursed-windows"] .vk-key.active {
+  background: #ffffff;
+  color: #0047ab;
+}
+
+/* 6. GRANDMA'S COMPUTER (Floral Tablecloth, Huge Comic Sans) */
+body[data-theme="grandma"] {
+  --bg-primary: #fff0f5;
+  --bg-secondary: #ffe4e1;
+  --bg-card: #fffaf0;
+  --border-color: #ff69b4;
+  --text-primary: #4b0082;
+  --text-secondary: #8b008b;
+  --accent-color: #ff1493;
+  --cursed-accent: #ff4500;
+  --card-shadow: 0 6px 12px rgba(255, 105, 180, 0.3);
+  font-family: 'Comic Sans MS', 'Chalkboard SE', cursive, sans-serif;
+  font-size: 1.15rem;
+}
+
+body[data-theme="grandma"] .vk-key {
+  background: #ffe4e1;
+  color: #4b0082;
+  border: 3px dashed #ff69b4;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 0 #db7093;
+}
+
+/* 7. SPACE STATION (Amber Sci-Fi HUD) */
+body[data-theme="space-station"] {
+  --bg-primary: #0c0904;
+  --bg-secondary: #1a1205;
+  --bg-card: rgba(26, 18, 5, 0.9);
+  --border-color: #ffaa00;
+  --text-primary: #ffaa00;
+  --text-secondary: #ffb833;
+  --accent-color: #ffcc00;
+  --cursed-accent: #ff3300;
+  --card-shadow: 0 0 25px rgba(255, 170, 0, 0.35);
+  font-family: 'Orbitron', 'Eurostile', sans-serif, monospace;
+}
+
+body[data-theme="space-station"] .vk-key {
+  background: #1e1507;
+  color: #ffaa00;
+  border-color: #ffaa00;
+  box-shadow: 0 3px 0 #805500;
+}
+
+/* 8. GOVERNMENT COMPUTER (Top Secret Dossier / Classified) */
+body[data-theme="government"] {
+  --bg-primary: #1e1b18;
+  --bg-secondary: #2b2723;
+  --bg-card: #e8e2d2;
+  --border-color: #8b0000;
+  --text-primary: #1a1a1a;
+  --text-secondary: #2d2d2d;
+  --accent-color: #8b0000;
+  --cursed-accent: #b22222;
+  --card-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body[data-theme="government"] .hud-card,
+body[data-theme="government"] .typing-arena {
+  background: #e8e2d2;
+  color: #1a1a1a;
+  border: 3px double #8b0000;
+  position: relative;
+}
+
+body[data-theme="government"] .typing-arena::before {
+  content: "TOP SECRET // CLASSIFIED";
+  position: absolute;
+  top: 6px;
+  right: 12px;
+  color: #8b0000;
+  font-weight: bold;
+  font-size: 0.75rem;
+  border: 2px solid #8b0000;
+  padding: 2px 6px;
+  transform: rotate(-3deg);
+}
+
+/* 9. EXTREMELY UGLY MODE (1999 Geocities Blink Nightmare) */
+body[data-theme="ugly-mode"] {
+  --bg-primary: #ffff00; /* Blinding Yellow */
+  --bg-secondary: #ff00ff; /* Neon Magenta */
+  --bg-card: #00ffff; /* Cyan */
+  --border-color: #ff0000;
+  --text-primary: #0000ff;
+  --text-secondary: #800080;
+  --accent-color: #ff0000;
+  --cursed-accent: #00ff00;
+  --card-shadow: 8px 8px 0 #ff0000;
+  font-family: 'Comic Sans MS', cursive, 'Brush Script MT', fantasy;
+  background-image: repeating-linear-gradient(45deg, #ffff00, #ffff00 20px, #ff00ff 20px, #ff00ff 40px);
+}
+
+body[data-theme="ugly-mode"] .vk-key {
+  background: #ff0000;
+  color: #ffff00;
+  border: 3px dotted #00ff00;
+  font-weight: bold;
+  box-shadow: 4px 4px 0 #0000ff;
+}
+
+body[data-theme="ugly-mode"] h1,
+body[data-theme="ugly-mode"] h2 {
+  text-shadow: 3px 3px 0 #ff00ff, 6px 6px 0 #00ffff;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CURSED KEYBOARD — The Keyboard Has Betrayed You</title>
+  <meta name="description" content="A deliberately useless, hilarious typing game where your keyboard actively fights you.">
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="/src/themes.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⌨️</text></svg>">
+</head>
+<body data-theme="hacker">
+  <div id="app">
+    <!-- Top Navbar -->
+    <header class="top-navbar">
+      <div class="brand-section">
+        <div class="brand-logo">⌨️💀</div>
+        <div class="brand-titles">
+          <h1>CURSED KEYBOARD</h1>
+          <div class="subtitle">"You know how to type. Unfortunately, your keyboard doesn't."</div>
+        </div>
+      </div>
+
+      <div class="nav-controls">
+        <!-- Theme Selector -->
+        <select id="theme-select" class="select-control" aria-label="Visual Theme">
+          <option value="hacker">Theme: 🟢 Hacker Matrix</option>
+          <option value="school-lab">Theme: 💾 School Computer Lab</option>
+          <option value="retro-arcade">Theme: 🕹️ Retro Arcade</option>
+          <option value="corporate">Theme: 🏢 Corporate Software</option>
+          <option value="cursed-windows">Theme: 💻 Cursed Windows</option>
+          <option value="grandma">Theme: 👵 Grandma's Computer</option>
+          <option value="space-station">Theme: 🚀 Space Station</option>
+          <option value="government">Theme: 📁 Top Secret Dossier</option>
+          <option value="ugly-mode">Theme: 🤡 Extremely Ugly Mode</option>
+        </select>
+
+        <!-- Mode Selector -->
+        <select id="mode-select" class="select-control" aria-label="Game Mode">
+          <option value="QUICK">Mode: ⚡ Quick Game (5 Rounds)</option>
+          <option value="ENDLESS">Mode: ♾️ Endless (Until Sanity 0)</option>
+          <option value="BOSS">Mode: 👹 Boss Mode</option>
+          <option value="CHAOS">Mode: 🌪️ Chaos Mode</option>
+          <option value="WHAT_IF">Mode: 🧪 "WHAT IF?" Stack</option>
+        </select>
+
+        <button type="button" class="icon-btn" id="btn-leaderboard" title="View Persistent Leaderboard">
+          🏆 Leaderboard
+        </button>
+
+        <button type="button" class="icon-btn" id="btn-less-chaos" title="Toggle Reduced Chaos & Screen Shake">
+          🎛️ Less Chaos: OFF
+        </button>
+
+        <button type="button" class="icon-btn" id="btn-achievements" title="View Achievements">
+          🏅 Achievements
+        </button>
+
+        <button type="button" class="icon-btn" id="btn-stats" title="View Lifetime Stats">
+          📊 Stats
+        </button>
+
+        <button type="button" class="icon-btn" id="btn-sound" title="Toggle Sound">
+          🔊 Sound: ON
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Dynamic Area -->
+    <main class="main-content" id="main-content">
+      <!-- Injected via JavaScript Views (Start Screen, Gameplay Screen, Two Player Screen) -->
+    </main>
+  </div>
+
+  <!-- Global Audio & App Entrypoint -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
